@@ -1,0 +1,22 @@
+name = Snappy Sunday Theme
+description = Template gemaakt voor Snappy Sunday mei 2014
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[sidebar_first] = Right sidebar
+regions[content] = Content
+regions[footer] = Footer
+regions[side_top_left] = Side top left
+regions[side_top_right] = Side top right
+regions[bottom_next] = Bottom next
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/text_styles.css
+stylesheets[all][] = css/components.css
+
+scripts[] = js/functions.js
+
+features[] = name
+features[] = main_menu

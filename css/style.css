@@ -1,0 +1,177 @@
+/* importing a css reset would be nice! */
+body{
+margin:0px;
+padding:0px;
+}
+div.ui-page{
+overflow-y:hidden !important;
+overflow-wrap: break-word !important;
+}
+
+.column_1, .column_2, .column_3{
+display:inline-block;
+}
+#body_home{
+background-color:#e97c77;
+width:100%;
+height:inherit;
+text-align:center;
+}
+#body_about{
+background-color:#ffd23e;
+width:100%;
+height:inherit;
+text-align:center;
+}
+#body_team{
+background-color:#ffffff;
+width:100%;
+height:inherit;
+text-align:center;
+}
+#body_work{
+background-color:#4087d3;
+width:100%;
+height:inherit;
+text-align:center;
+}
+#body_contact{
+background-color:#5bd2c0;
+width:100%;
+height:inherit;
+text-align:center;
+}
+
+/*//////////////////////////////*/
+/*	Inlogscherm styles		 	*/
+/*//////////////////////////////*/
+#content{
+display:inline-block;
+height:100% !important;
+}
+#content #user-login label{
+color:#ffffff;
+font-size:18px;
+font-weight:bold;
+font-family: 'Advent Pro', 'Open Sans', 'sans-serif';
+}
+#content #user-login input{
+ text-align:center;
+ border: 2px solid #c9b7a2;
+ background: #cfd16b;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;
+ color: #000000;
+ -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+ -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+ box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+}
+#content #user-login .description{
+color:#ffffff;
+font-size:14px;
+font-family: 'Advent Pro', 'Open Sans', 'sans-serif';
+}
+#content #user-login .form-submit{
+}
+/*//////////////////////////////*/
+/*	Page content area styles 	*/
+/*//////////////////////////////*/
+
+#content_home{
+display:inline-block; /*nodig anders wil de menudiv niet mooi aan de contentdiv worden gekoppeld zonder dat er witruimte tussen komt*/
+width:1024px;
+height:700px;
+padding-top:25px;
+background-image:url('../images/bg_images/home_bg_images.png');
+}
+
+#content_about{
+display:inline-block; /*nodig anders wil de menudiv niet mooi aan de contentdiv worden gekoppeld zonder dat er witruimte tussen komt*/
+width:1024px;
+height:765px;
+padding-top:25px;
+background-image:url('../images/bg_images/about_bg_images.png');
+}
+#content_team{
+display:inline-block; /*nodig anders wil de menudiv niet mooi aan de contentdiv worden gekoppeld zonder dat er witruimte tussen komt*/
+width:1024px;
+height:765px;
+padding-top:25px;
+background-image:url('../images/bg_images/team_bg_images.png');
+}
+#content_work{
+display:inline-block; /*nodig anders wil de menudiv niet mooi aan de contentdiv worden gekoppeld zonder dat er witruimte tussen komt*/
+width:1024px;
+height:765px;
+padding-top:25px;
+background-image:url('../images/bg_images/work_bg_images.png');
+}
+#content_contact{
+display:inline-block; /*nodig anders wil de menudiv niet mooi aan de contentdiv worden gekoppeld zonder dat er witruimte tussen komt*/
+width:1024px;
+height:765px;
+padding-top:25px;
+background-image:url('../images/bg_images/contact_bg_images.png');
+}
+
+/*//// Pagina specifieke styles //////*/
+#content_home .column_2{
+margin-left:auto;
+margin-right:auto;
+width:500px;
+text-align:center;
+}
+
+tbody{
+border:none;
+}
+
+/*//////////////////////////////*/
+/*	Header area styles 			*/
+/*//////////////////////////////*/
+
+#header{
+width:100%;
+height:60px;
+background-color:#69ccc7;
+text-align:center;
+position:fixed;
+z-index:2;
+-webkit-box-shadow: 0 0 10px 1px #000000;
+box-shadow: 0 0 10px 1px #000000;
+border:0px;
+}
+#header_dummy{
+width:100%;
+height:60px;
+}
+#header ul  li{
+display:inline-block;
+padding-right:20px;
+padding-left:20px;
+}
+
+/*//////////////////////////////////*/
+/*	Naviation area styles 			*/
+/*//////////////////////////////////*/
+#header nav #main-menu-links{
+margin-top:20px;
+}
+/*//////////////////////////////*/
+/*	Header area styles 			*/
+/*//////////////////////////////*/
+footer{
+width:100%;
+text-align:center;
+}
+
+#go_down{
+/*background-image:url('../images/user_images/go_down.png');*/
+position: absolute;
+bottom: 0px;
+right: 45%;
+width:70px;
+height:67px;
+display:block;
+}
